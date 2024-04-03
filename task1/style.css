@@ -370,6 +370,9 @@ span {
     #menu-icon {
         display: block;
     }
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
     .navbar {
         position: absolute;
         top: 100%;
