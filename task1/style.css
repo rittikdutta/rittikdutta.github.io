@@ -352,6 +352,7 @@ span {
     }
     section {
         padding: 10rem 3% 2rem;
+        width: 100%;
     }
     .services {
         padding-bottom: 7rem;
