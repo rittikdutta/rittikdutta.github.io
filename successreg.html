@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Successful</title>
+<script>
+    window.history.forward();
+</script>
+<!-- Include SweetAlert library -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+<script>
+    // When the page loads
+    window.onload = function() {
+        // Display SweetAlert prompt with a button
+        swal({
+            title: "Successfully",
+            text: "Your Account is Created Sucessfully",
+            icon: "success",
+            buttons: {
+                confirm: {
+                    text: "Log In",
+                    value: true,
+                    visible: true,
+                    className: "btn-primary",
+                    closeModal: true
+                }
+            },
+        }).then((value) => {
+            // If the button is clicked
+            if (value) {
+                // Redirect to another page
+                window.location.href = "log.html";
+            }
+        });
+    };
+</script>
+
+</body>
+</html>

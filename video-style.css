@@ -1,0 +1,22 @@
+/* CSS for the background video */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  /* Ensure that other elements don't cover the video */
+  header, .content, footer {
+    position: relative;
+    /*z-index: 1;*/
+  }
+  
+  /* Additional styling if needed */
+  #white-background {
+    background-color: rgb(214, 204, 204); /* Set the background color */
+    padding: 5px; /* Optional: Add padding for better visual appearance */
+  }
+    

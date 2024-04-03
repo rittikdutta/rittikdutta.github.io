@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="task1/style.css">
+    <!------------------------------------------------------------------>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .fa {
+       padding: 10px;
+       font-size: 30px;
+       width: 50px;
+       text-align: center;
+       text-decoration: none;
+       margin: 5px 2px;
+       border-radius: 50%;
+    }
+
+   .fa:hover {
+      opacity: 0.7;
+   }
+
+   .fa-facebook {
+      background: #3B5998;
+      color: white;
+   }
+   .fa-google {
+     background: #dd4b39;
+     color: white;
+    }
+   .fa-whatsapp {
+      background: #02f823;
+      color: white; 
+    }
+   .fa-whatsapp, .fa-google, .fa-facebook {
+	  animation: beat .55s infinite alternate;
+	  transform-origin: center;
+   }
+
+   /* Heart beat animation */
+   @keyframes beat{
+	  to { transform: scale(1.4); }
+    }
+   </style>
+   <!------------------------------------------------------------------>
+</head>
+
+<body>
+
+    <!--header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+         <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+         </nav>
+
+    </header>
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Rittik Dutta</h1>
+            <h3>And I Am  A <span class ="multiple-text"></span></h3>
+            <p>
+            Welcome to my portfolio! <br>
+            I'm Rittik Dutta passionate in  developing Applications  by crafting innovative solution
+              through code. I turn ideas into reality through the power of technology. I have five years 
+              experience in developing applications . My mission is to leverage my skills  to create 
+              impactful  applications that  not only meet but  exceed expectations. I beleive in continious 
+              learning and staying updated with the latest technologies to deliver cutting edge solutions. 
+            </p>
+            <div class="social-media">
+                <a href="https://m.me/shaneroy.rishiroy"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://twitter.com/?lang=en"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/rittik__dutta/?igsh=MWJnbnZiZzJva2Z5bQ%3D%3D"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/rittik-dutta-86363a2ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/rittikdutta"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="task1/img/Rittik Dutta.pdf" download="Rittik Dutta CV" class="btn" target="_blank">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="task1/img/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="task1/img/home2.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3><span class ="multiple-text1"></span></h3>
+            <p>
+                I'm Rittik Dutta. I live in Birati which is in Kolkata. I have completed my Bachelors of Computer Application(BCA  Hons.) From  Techno Main Saltlake
+                 and currently I am pursuing Master's of Computer Application (MCA) from Narula Institute of Technology. From conceptualization to deployment I 
+                 specialize in everything whether it's developing robust backend systems or frontend. I am committed to deliver excellence in every project. My 
+                 skills are i am proficient in variety of tools, programming language, frameworks like Java , spring , spring boot , Hibernate , Python , HTML , 
+                 CSS , Javascript etc. I have five years experience in creating any type of applications. My latest Project include a Food ordering System (Food order )
+                , Pharmacy Management System (Med Pharmacy) and many more. Anybody can explore my projects where i have demonstrated my technical prowess and problem 
+                  solving ability. I have done hands on experience in developing web applications, standalone applications and android applications. I have also done a 
+                  certification course in CCNA. <br>
+                Feel free to reach out  via Google , Facebook , Linkedin 
+                  ,Github, Instagram etc. . I am always open to new challenges and collaborations. <br>
+                Thank you for visiting my portfolio. I look forward  to help everybody and in making new connects.
+
+
+            </p>
+            <a href="https://www.linkedin.com/in/rittik-dutta-86363a2ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-paint' ></i>
+                <h3>Download Application</h3>
+                <p>Clicking on dowload now will redirect the page to github where my recent projects are available  for downloading.
+                     Anybody Can download my projects for free . 
+                   </p>
+                <a href="https://github.com/rittikdutta" class="btn">Download Now</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web & App Development</h3>
+                <p>Clicking on view projects will redirect the page to where a brief description about how my recent projects are working 
+                    and also  available  for downloading.
+                </p>
+                <a href="page1.html" class="btn">View Projects</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt' ></i>
+                <h3>Certificates</h3>
+                <p>Clicking on click to view  will show my advance certifications  ,internship certificates and  industrial training certifications, 
+                    Academy of Skill Development Certifications and many more .
+                </p>
+                <a href="page2.html" class="btn">Click To View</a>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="appsc/a3.png" width="300px" height="300px" alt="">
+                <div class="portfolio-layer">
+                    <h4>Food Order</h4>
+                    <p>It is a web application where  anyone can order food online. Various restaurants can  use this app for taking orders online.</p>
+                    <a href="https://github.com/rittikdutta/food-ordering-system-Food-Order"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="appsc/a2.png" width="300px" height="300px" alt="">
+                <div class="portfolio-layer">
+                    <h4>Med Pharamacy</h4>
+                    <p>It is a standalone applications specially designed for pharamacists to manage record of medicines.</p>
+                    <a href="https://github.com/rittikdutta/pharmacy-management-system-Med-Pharmacy"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="appsc/a4.jpg" width="300px" height="300px" alt="">
+                <div class="portfolio-layer">
+                    <h4>Money Converter</h4>
+                    <p>It's a android application where anybody can check and convert currency rate of different countries. It also shows the current growth rate of currencies.</p>
+                    <a href="https://github.com/rittikdutta/demo"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="task1/img/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>COMING SOON</h4>
+                    <p>The application is under development, Developers are working on it. Soon it will be Released.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="task1/img/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>COMING SOON</h4>
+                    <p>The application is under development, Developers are working on it. Soon it will be Released.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="task1/img/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>COMING SOON</h4>
+                    <p>The application is under development, Developers are working on it. Soon it will be Released.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        
+        <form action="https://formspree.io/f/mqkrdvld" method="POST" >
+
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Mobile Number">
+                <input type="text" name="emailsubject" placeholder="Email Subject">
+            </div>
+            <textarea name="text" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+    
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <!------------------------------------------------------------------>
+            <a href="mailto:rittiksnehadutta@gmail.com" class="fa fa-google"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://wa.me/916291875878/?text=Hi Rittik Dutta" ><i class="fa fa-whatsapp" ></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://m.me/shaneroy.rishiroy"  class="fa fa-facebook"></a> <br> <br>
+            <!------------------------------------------------------------------>
+            <p>Copyright & copy; 2024 by Rittik Dutta | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home">
+                <i class='bx bx-up-arrow-alt' ></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <!-- custom js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="task1/script.js"></script>
+</body>
+
+</html>
