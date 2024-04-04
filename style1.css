@@ -409,6 +409,38 @@ header {
         background-color: #fab804; /*#f1683a;*/
     }
 }
+@media screen and (max-width: 768px){
+    .carousel .list .item .content .topic {
+        font-size: 30px;
+    }
+    .carousel .list .item .content .title {
+        font-size: 27px;
+    }
+    body {
+        overflow-y: auto;
+    }
+    .arrows {
+        top: 250px;
+        left: 5px;
+    }
+    #prev {
+        margin-right: 298px;
+    }
+    .thumbnail {
+        bottom: -208px;
+    }
+    #whitebtn {
+        background-color: transparent;
+        border: 1px solid #737174;
+        color: #737174;
+        border-radius: 15px;
+    }
+    .carousel .time{
+        position: fixed;
+        margin-top: 38%;
+        background-color: #fab804; /*#f1683a;*/
+    }
+}
 @media (max-width: 990px){
     #menu-icon {
         margin-right: -6%;
