@@ -327,6 +327,8 @@ header {
     background-color: #fab804; /*#f1683a;*/
     left: 0;
     top: 0;
+    position: fixed;
+    margin-top: 6.2%;
 }
 
 .carousel.next .time,
