@@ -152,7 +152,7 @@ header {
 /* thumbail */
 .thumbnail{
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     left: 50%;
     width: max-content;
     z-index: 100;
