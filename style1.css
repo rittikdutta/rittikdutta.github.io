@@ -328,7 +328,7 @@ header {
     left: 0;
     top: 0;
     position: fixed;
-    margin-top: 6.2%;
+    margin-top: 6.3%;
 }
 
 .carousel.next .time,
@@ -429,7 +429,7 @@ header {
         margin-right: 298px;
     }
     .thumbnail {
-        bottom: -208px;
+        bottom: -190px;
     }
     #whitebtn {
         background-color: transparent;
