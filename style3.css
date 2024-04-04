@@ -350,7 +350,7 @@ body {
         top: 100%;
         right: -100%;
         width: 225px;
-        height: 51vh;
+        height: 40vh;
         background: linear-gradient(245.59deg, #271339 0%, #384370 28.53%, #4d6a95 75.52%);/*#4d9559;*/
         display: flex;
         align-items: center;
