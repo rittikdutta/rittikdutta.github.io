@@ -8,6 +8,7 @@
 }
 body{
     margin: 0;
+    width: 104%; 
     background-color: #000;
     color: #eee;
     font-family: Poppins;
@@ -242,7 +243,7 @@ section {
       display: flex;
       flex-direction: row; /* Align icons horizontally */
       justify-content: center; /* Center icons horizontally */
-      margin-top: 56%;
+      margin-top: 120%;
     }
     .scroll-down {
         display: none;
