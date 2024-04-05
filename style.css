@@ -253,7 +253,7 @@ section {
       display: flex;
       flex-direction: row; /* Align icons horizontally */
       justify-content: center; /* Center icons horizontally */
-      margin-top: 100%;
+      margin-top: 107%;
     }
     .scroll-down {
         display: none;
