@@ -190,9 +190,19 @@ section {
         padding: 0px 3%;
         transition: .2s;
     }
-    .icons { 
+    .hero-text h1 {                                        /**---*/
+        font-size: 62px;
+    }
+    .icons {                                             /**---*/
         padding: 0 3%;
         transition: .2s;
+        top: 57%;
+    }
+    .hero-img img{                                       /**---*/
+        margin-left: 14%;
+        margin-top: 4%;
+        width: 480px;
+        height: 500px;
     }
     .scroll-down { 
         right: 3%;
