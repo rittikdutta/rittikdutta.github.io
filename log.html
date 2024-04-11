@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        window.history.forward();
+      </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelog.css">
+    <title>Signin & Sign up</title>
+    <!-- box icon link -->
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   <!-- remix icon link -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+   <!--prompt / alert box-->
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" ></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript"> 
+        function fun1() { 
+          swal("Sorry!", "You are already in LogIn/Registration Page!", "warning"); 
+          } 
+  </script>
+  <!----------------------------------------------------------->
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get references to password and confirm password fields
+      const passwordField = document.getElementById('password');
+      const confirmPasswordField = document.getElementById('confirm_password');
+      const passwordError = document.getElementById('password_error');
+  
+      // Function to check if passwords match and update error message
+      function checkPasswords() {
+        if (passwordField.value !== confirmPasswordField.value) {
+          passwordError.textContent = "Passwords do not match";
+        } else {
+          passwordError.textContent = ""; // Clear error message if passwords match
+        }
+      }
+  
+      // Event listener to check passwords when input is changed
+      passwordField.addEventListener('input', checkPasswords);
+      confirmPasswordField.addEventListener('input', checkPasswords);
+    });
+  </script>
+<!------------------------------------------------------------>
+
+</head>
+
+<body>
+
+    <header>
+        <img src="img/icon1.png" alt=""  width="135" height="100" class="c">
+        <a href="#" class="logo"><span class="multiple-text"></span></a>
+        <ul class="navlist" style="list-style: none;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page3.html">Downloads</a></li>
+            <li><a href="page1.html">Apps</a></li>
+            <li><a href="page2.html">Certificates</a></li>
+            <li><a href="#log" onclick="fun1()">Log In</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-container sign-up">
+            <form method="post" action="connect.php">
+                <h2>sign up</h2>
+                <div class="form-group">
+                    <input type="text" name="username" required>
+                    <i class="fas fa-user"></i>
+                    <label for="">username</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" required>
+                    <i class="fas fa-at"></i>
+                    <label for="">email</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" required>
+                    <i class="fas fa-lock"></i>
+                    <label for="">password</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirm_password" name="cpassword" required>
+                    <i class="fas fa-lock"></i>
+                    <label for="">confirm password</label>
+                    <!------------------------------------------------------->
+                    <span id="password_error" class="error-text" style="color: red; font-size: 12px;"></span>
+                     <!------------------------------------------------------->
+                </div>
+                <button type="submit" class="btn">sign up</button>
+                <div class="link">
+                    <p>You already have an account?<a href="#" class="signin-link"> sign in</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form method="post" action="connect1.php">
+                <h2>login</h2>
+                <div class="form-group">
+                    <input type="text" name="username1" required>
+                    <i class="fas fa-user"></i>
+                    <label for="">username</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password1" required>
+                    <i class="fas fa-lock"></i>
+                    <label for="">password</label>
+                </div>
+                <div class="forgot-pass">
+                    <a href="#">forgot password?</a>
+                </div>
+                <button type="submit" class="btn">login</button>
+                <div class="link">
+                    <p>Don't have an account?<a href="#" class="signup-link"> sign up</a></p>
+                </div>
+            </form>
+        </div>
+        <img src="img/icon1.png" alt="logo" width="405" height="300" class="d">
+    </div>
+    
+    <!------------------------------footer html--------------------------------------------------->
+ <footer class="footer">
+    <div class="container">
+        <div class="footer-logo">
+            <img src="img/icon1.png" width="120px" height="80px" alt="Company Logo">
+            <h3><i>MD Apps & Development.Pvt.Ltd</i></h3>
+            <BR>
+            <p>32/2 Rabindrapath, Birati</p>
+            <p>Phone: +91 6291875878</p>
+            <p>Email: rittikdutta9088@gmail.com</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/shaneroy.rishiroy?mibextid=ZbWKwL" class="social-icon"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://github.com/rittikdutta" class="social-icon"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/rittik-dutta-86363a2ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="mailto:rittiksnehadutta@gmail.com" class="social-icon"><i class='bx bxl-google' ></i></a>
+            <a href="https://twitter.com/?lang=en" class="social-icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="mailto:rittiksnehadutta@gmail.com">Contact Us</a>
+            <a href="https://www.termsfeed.com/live/3b59b5b0-a755-4eae-962d-0e25cf0fb9cb">Privacy Policy</a>
+            <a href="https://www.termsandconditionsgenerator.com/live.php?token=ceCyYK8KZFsQEsuARw3n7j8wJhlyK8ca">Terms & Conditions</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; <span id="year"></span> Company Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <!-------------------------------------------------------------------------------------------->
+    
+    <!-- Scroll reveal effect -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <!-- typed js -->
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+    <script src="scriptlog.js"></script>
+</body>
+
+</html>
